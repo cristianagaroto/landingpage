@@ -1,0 +1,56 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.4)), url(imagens/data_hotel.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: roboto;
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+	font-size: 80px;
+	font-family: Satisfy, cursive;
+	letter-spacing: 15px;
+	color: rgb(235 134 150);
+	padding-top: 100px;
+	text-shadow: 2px 2px 2px rgb(200,200,200);
+}
+
+p{
+	font-size: 22px;
+	margin: 30px;
+}
+
+.botao{
+	background-color: rgb(235 134 150);
+	color: rgb(40 61 76);
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+	font-family: Satisfy, cursive;
+	text-shadow: 1px 1px 1px white;
+}
+
+.botao:hover{
+	color: rgb(235 134 150);
+	background-color: rgb(40 61 76);
+}
+
+.contacto {
+	list-style: none;
+	margin-top: 192px;
+	padding-left: 0;
+}
+.contacto li {
+	color: white;
+	display: inline;
+	padding-right: 2px;
+	padding-left: 2px;
+	text-shadow: 3px 3px 1px black;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
